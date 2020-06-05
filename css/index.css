@@ -80,6 +80,14 @@ header nav{
     margin-left: 25%;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:red;
+}
 header img{
     width:200px;
 }
@@ -311,3 +319,89 @@ footer nav a {
 
 }
 
+/* ABOUT.HTML STYLES */
+
+.about-page{
+    border-bottom: 1px dashed;
+}
+
+.about-page p{
+    margin:3%;
+}
+
+.picture-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width:70%;
+margin-left: 18.5%;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 1.33rem;
+}
+
+.first{
+
+    width:35%;
+    margin-bottom: 3%;
+}
+
+.first img{
+    margin-bottom: 2%;
+}
+
+.second{
+ 
+    width:35%;
+}
+
+.second img{
+    margin-bottom: 2%;
+}
+
+.third{
+
+    width:33%;
+}
+
+.third img{
+    margin-bottom: 2%;
+}
+
+.last{
+
+    width:35%;
+}
+
+.last img{
+    margin-bottom: 2%;
+}
+
+.footer-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.final-text{
+    width:45%;
+    margin-left:29%;
+    margin-bottom: 2%;
+}
+
+.button{
+    background-color: white;
+    border:2px solid;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    width:150px;
+}
+
+.button:hover{
+    color:red;
+}
