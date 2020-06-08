@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin:2%;
+    width:50%;
+    margin-left: 25%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:red;
+}
+header img{
+    width:200px;
+}
+
+.Top-Image{
+    display:flex;
+    justify-content: center;
+    margin:2%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +128,105 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +268,144 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+  
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+    
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+  
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+ 
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+ 
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+  
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+    
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+
+}
+
+/* ABOUT.HTML STYLES */
+
+.about-page{
+    border-bottom: 1px dashed;
+    width:50%;
+}
+
+.about-page p{
+    margin:3%;
+}
+
+.picture-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+width:70%;
+margin-left: 18.5%;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 1.33rem;
+}
+
+.first{
+    border-bottom:1px dashed;
+    width:35%;
+    /* margin-bottom: 3%; */
+
+}
+
+.first img{
+    margin-bottom: 2%;
+    border-bottom:1px dashed;
+
+}
+
+.second{
+    border-bottom:1px dashed;
+    width:35%;
+}
+
+.second img{
+    margin-bottom: 2%;
+}
+
+.third{
+    border-bottom:1px dashed;
+    width:33%;
+}
+
+.third img{
+    margin-bottom: 2%;
+}
+
+.last{
+    border-bottom:1px dashed;
+    width:35%;
+}
+
+.last img{
+    margin-bottom: 2%;
+}
+
+.footer-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.final-text{
+    width:45%;
+    margin-left:29%;
+    margin-bottom: 2%;
+}
+
+.button{
+    background-color: white;
+    border:2px solid;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    width:150px;
+}
+
+.button:hover{
+    color:red;
 }
